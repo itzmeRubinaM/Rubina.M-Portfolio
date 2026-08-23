@@ -1,4 +1,4 @@
-# Rubina Mollah — Portfolio
+# Rubina Gaharali Mollah - Portfolio
 
 A React + Vite + TypeScript + Tailwind CSS v4 portfolio site, using shadcn/ui
 (Radix primitives), Framer Motion, GSAP, and Lenis for smooth scrolling.
