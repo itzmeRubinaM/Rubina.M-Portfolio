@@ -70,7 +70,7 @@ export function About() {
                     <div className="absolute w-2 h-2 bg-primary rounded-full -left-[5px] top-2" />
                     <h4 className="text-lg font-bold">{item.degree}</h4>
                     <p className="text-primary text-sm mb-1">{item.institution} • {item.period}</p>
-                    <p className="text-sm text-muted-foreground">{item.gpa} {item.specialization ? `| ${item.specialization}` : ''}</p>
+                    {item.specialization && <p className="text-sm text-muted-foreground">| {item.specialization}</p>}
                   </motion.div>
                 ))}
 
