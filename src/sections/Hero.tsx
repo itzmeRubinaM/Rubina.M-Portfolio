@@ -5,7 +5,7 @@ import { MagneticButton } from '@/components/MagneticButton';
 import { AnimatedText } from '@/components/AnimatedText';
 import { ArrowDown } from 'lucide-react';
 import resumePdf from '@/assets/Rubina-Mollah-Resume.pdf?url';
-import pfpImg from '@/assets/PFP_1785827688210.png';
+import pfpImg from '@/assets/PFP_1785827688210.jpeg';
 
 export function Hero() {
   const roles = [
